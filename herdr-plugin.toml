@@ -1,0 +1,22 @@
+id = "herdr.resource-manager"
+name = "Resource Manager"
+version = "0.1.0"
+description = "Live CPU/memory board for every workspace, pane, and agent — Orca-style resource manager for Herdr"
+min_herdr_version = "0.9.3"
+platforms = ["macos", "linux"]
+
+[[actions]]
+id = "open"
+title = "Open resource manager"
+command = ["node", "bin/action-open.js"]
+
+[[actions]]
+id = "snapshot"
+title = "Resource snapshot (JSON)"
+command = ["node", "bin/snapshot.js"]
+
+[[panes]]
+id = "manager"
+title = "Resource manager"
+placement = "overlay"
+command = ["node", "bin/manager.js"]

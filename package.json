@@ -1,0 +1,14 @@
+{
+  "name": "herdr-resource-manager",
+  "version": "0.1.0",
+  "description": "Live CPU/memory board for every Herdr workspace, pane, and agent",
+  "type": "module",
+  "license": "MIT",
+  "author": "Edgardo Yoliani",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
